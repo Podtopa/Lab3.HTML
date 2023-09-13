@@ -1,32 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Lab3.HTML</title>
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+
 </head>
 <body>
     <div>
-        <h2>Рєєстрація</h2>
+        <h2>Реєстрація</h2>
         <form>
             <div>Введіть своє ім'я::<input type="text"></div>
+            <br>
             <div>Введіть своє прізвище:<input type="text"></div>
+            <br>
             <div>Введіть пароль:<input type="password"></div>
+            <br>
             <div>Виберіть стать:
                 <input type="radio" id="man" value="man" name="point"><label for="man">чоловік</label>
                 <input type="radio" id="woman" value="woman" name="point"><label for="woman">жінка</label>
             </div>
+            <br>
             <div>Виберіть дату народження:<input type="date" id="start" name="trip-start" value="2023-09-18" min="1990-01-01" max="2023-09-11"></div>
+            <br>
             <div>Виберіть мову програмування:<br>
-                <input id="html" type="checkbox"  name="languages" value="Pascal"><label for="html">Pascal</label><br>
-                <input id="html" type="checkbox"  name="languages" value="PHP"><label for="html">PHP</label><br>
-                <input id="html" type="checkbox"  name="languages" value="JavaScript"><label for="html">JavaScript</label><br>
-                <input id="html" type="checkbox"  name="languages" value="Basic"><label for="html">Basic</label><br>
-                <input id="html" type="checkbox"  name="languages" value="C++"><label for="html">C++</label>
+                <input id="Pascal" type="checkbox"  name="languages" value="Pascal"><label for="Pascal">Pascal</label><br>
+                <input id="PHP" type="checkbox"  name="languages" value="PHP"><label for="PHP">PHP</label><br>
+                <input id="js" type="checkbox"  name="languages" value="JavaScript"><label for="js">JavaScript</label><br>
+                <input id="basic" type="checkbox"  name="languages" value="Basic"><label for="basic">Basic</label><br>
+                <input id="c++" type="checkbox"  name="languages" value="C++"><label for="c++">C++</label>
             </div>
             <div><p>За потреби, можете залишити свій коментар тут:</p><textarea cols="30" rows="10"></textarea></div>
             <br>
             <button>Надіслано</button>
         </form>
+        <br>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d34180.566045088206!2d30.41256993138863!3d50.45067830007783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x40d4cc35e07d4ba1%3A0xa617f3901808d670!2z0LLRg9C70LjRhtGPINCU0LXQs9GC0Y_RgNGW0LLRgdGM0LrQsCwgNDUsINCa0LjRl9Cy!3m2!1d50.461667299999995!2d30.4363274!4m5!1s0x40d4ce82b9d930e5%3A0x8b1e1e0c5175e2f!2z0JrQn9CGLCDQutC-0YDQv9GD0YEg4oSWMSwg0L_RgNC-0YHQv9C10LrRgiDQn9C10YDQtdC80L7Qs9C4LCDQmtC40ZfQsg!3m2!1d50.449512!2d30.460813599999998!5e0!3m2!1suk!2sua!4v1694610239112!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1694611193185!6m8!1m7!1s45LMolFec9Xop3b4damFgw!2m2!1d50.45580625247028!2d30.5315674135445!3f313.66716524746175!4f2.5047864230454593!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lKU6LXhjV9k?si=KaK7VWcKifTL9PII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            <figure>
+                <figcaption>Відтворити пісню з відео:</figcaption>
+                <audio controls src="OneRepublic-Counting%20Stars.mp3">
+                    <a href="OneRepublic-Counting%20Stars.mp3"> Download audio </a>
+                </audio>
+            </figure>
+        </div>
+
+        <div>
+            <ul class="social-counter social social-color social-text">
+            <li class="facebook"><a href="https://www.facebook.com/OneRepublic" rel="nofollow" target="_blank" title="facebook"></a></li>
+            <li class="youtube"><a href="https://www.youtube.com/watch?v=lKU6LXhjV9k&ab_channel=%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D1%96%D1%8F%D0%9F%D0%BE%D0%B4%D1%82%D1%8C%D0%BE%D0%BF%D0%B0" rel="nofollow"  target="_blank" title="youtube"></a></li>
+            <li class="pinterest"><a href="https://ru.pinterest.com/pin/629167010461664457/" rel="nofollow"  target="_blank" title="pinterest"></a></li>
+            <li class="instagram"><a href="https://www.instagram.com/onerepublic/" rel="nofollow"  target="_blank" title="instagram"></a></li>
+            </ul>
+            <style>
+                ul.social-counter.social.social-color.social-text {padding-bottom: 120px;}
+                .social-counter li a:hover { opacity: .8; } .social-counter li a:before { float: left; width: 34px; height: 34px; background-color: rgba(0,0,0,0.1); text-align: center; margin: 0 10px 0 0; } .social a:before { display: inline-block; font-family: fontawesome; font-style: normal; font-weight: 400; } .social-counter li:nth-child(1), .social-counter li:nth-child(2) { margin-top: 0; } .social-counter li:nth-child(even) { float: right; } .social-counter li { float: left; width: calc(50% - 5px); margin: 10px 0 0;  list-style-type: none;} .social-counter li a { display: block; height: 34px; font-size: 14px; color: #fff; line-height: 34px; transition: opacity .17s;}
+                .social .facebook a:before{content:"\f09a"}.social .twitter a:before{content:"\f099"}.social .gplus a:before{content:"\f0d5"}.social .rss a:before{content:"\f09e"; font-family:"Times New Roman";font-weight:900}.social .youtube a:before{content:"\f167"}.social .skype a:before{content:"\f17e"}.social .stumbleupon a:before{content:"\f1a4"}.social .tumblr a:before{content:"\f173"}.social .vk a:before{content:"\f189"}.social .stack-overflow a:before{content:"\f16c"}.social .github a:before{content:"\f09b"}.social .linkedin a:before{content:"\f0e1"}.social .dribbble a:before{content:"\f17d"}.social .soundcloud a:before{content:"\f1be"}.social .behance a:before{content:"\f1b4"}.social .digg a:before{content:"\f1a6"}.social .instagram a:before{content:"\f16d"}.social .pinterest a:before{content:"\f0d2"}.social .twitch a:before{content:"\f1e8"}.social .delicious a:before{content:"\f1a5"}.social .codepen a:before{content:"\f1cb"}.social .flipboard a:before{content:"\f44d"}.social .reddit a:before{content:"\f1a1"}.social .whatsapp a:before{content:"\f232"}.social .messenger a:before{content:"\f39f"}.social .snapchat a:before{content:"\f2ac"}.social .email a:before{content:"\f0e0";font-family:fontawesome}.social .external-link a:before{content:"\f35d";font-family:fontawesome;font-weight:900}.social-color .blogger a{background-color:#ff5722}.social-color .facebook a{background-color:#3b5999}.social-color .twitter a{background-color:#00acee}.social-color .gplus a{background-color:#db4a39}.social-color .youtube a{background-color:#db4a39}.social-color .instagram a{background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)}.social-color .pinterest a{background-color:#ca2127}.social-color .dribbble a{background-color:#ea4c89}.social-color .linkedin a{background-color:#0077b5}.social-color .tumblr a{background-color:#365069}.social-color .twitch a{background-color:#6441a5}.social-color .rss a{background-color:#ffc200}.social-color .skype a{background-color:#00aff0}.social-color .stumbleupon a{background-color:#eb4823}.social-color .vk a{background-color:#4a76a8}.social-color .stack-overflow a{background-color:#f48024}.social-color .github a{background-color:#24292e}.social-color .soundcloud a{background:linear-gradient(#ff7400,#ff3400)}.social-color .behance a{background-color:#191919}.social-color .digg a{background-color:#1b1a19}.social-color .delicious a{background-color:#0076e8}.social-color .codepen a{background-color:#000}.social-color .flipboard a{background-color:#f52828}.social-color .reddit a{background-color:#ff4500}.social-color .whatsapp a{background-color:#3fbb50}.social-color .messenger a{background-color:#0084ff}.social-color .snapchat a{background-color:#ffe700}.social-color .email a{background-color:#888}.social-color .external-link a{background-color:#333}.social-text .blogger a:after{content:"Blogger"}.social-text .facebook a:after{content:"Facebook"}.social-text .twitter a:after{content:"Twitter"}.social-text .gplus a:after{content:"Google Plus"}.social-text .rss a:after{content:"Rss"}.social-text .youtube a:after{content:"YouTube"}.social-text .skype a:after{content:"Skype"}.social-text .stumbleupon a:after{content:"StumbleUpon"}.social-text .tumblr a:after{content:"Tumblr"}.social-text .vk a:after{content:"VKontakte"}.social-text .stack-overflow a:after{content:"Stack Overflow"}.social-text .github a:after{content:"Github"}.social-text .linkedin a:after{content:"LinkedIn"}.social-text .dribbble a:after{content:"Dribbble"}.social-text .soundcloud a:after{content:"SoundCloud"}.social-text .behance a:after{content:"Behance"}.social-text .digg a:after{content:"Digg"}.social-text .instagram a:after{content:"Instagram"}.social-text .pinterest a:after{content:"Pinterest"}.social-text .twitch a:after{content:"Twitch"}.social-text .delicious a:after{content:"Delicious"}.social-text .codepen a:after{content:"CodePen"}.social-text .flipboard a:after{content:"Flipboard"}.social-text .reddit a:after{content:"Reddit"}.social-text .whatsapp a:after{content:"Whatsapp"}.social-text .messenger a:after{content:"Messenger"}.social-text .snapchat a:after{content:"Snapchat"}.social-text .email a:after{content:"Email"}
+            </style>
+        </div>
+        <div>
+            <style>.meteo-informer {width: 360px;min-height: 175px;border-color: #FFC107;background-color: #FFFFFF;color: #2B2B2B;font-family: Georgia, sans-serif} .meteo-informer__cell-description, .meteo-informer__cell-icon, .meteo-informer__cell-info, .meteo-informer__cell-logo, .meteo-informer__cell-specification {border-bottom-color: #FFC107;}</style>
+            <div id="meteo_informer_07d57edb68af088676996a4f9dc0a6bd"><p><a href="https://meteo.ua/ua/34/kiev">Погода в Києві
+            </a></p>
+            </div>
+            <script async type="text/javascript" charset="utf-8" src="https://meteo.ua/informer-07d57edb68af088676996a4f9dc0a6bd"></script>
+        </div>
+
     </div>
 </body>
 <hr>
